@@ -1,0 +1,25 @@
+.boton-amarillo {
+    @include boton($amarillo, inline-block);
+}
+.boton-amarillo-block {
+    @include boton($amarillo, block);
+}
+.boton-verde {
+    @include boton($verde, inline-block);
+}
+.boton-verde-block {
+    @include boton($verde, block);
+    width: 100%;
+}
+.boton-rojo-block {
+    @include boton($rojoError, block);
+    width: 100%;
+}
+.boton-grisOscuro-block {
+    @include boton($grisOscuro, block);
+}
+.boton-verdeCorrecto-block {
+    @include boton($verdeCorrecto, block);
+}
+
+// El boton es un MIXIN. Allí está la hoja de estilos del botón. Aquí se selecciona el color y el tipo de bloque del botón (display).

@@ -1,0 +1,58 @@
+
+
+.alerta {
+    padding: .5rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    &.error {
+        background-color: $rojoError;
+    }
+    &.correcto {
+        background-color: $verdeCorrecto;
+    }
+}
+table.propiedades {
+    margin-top: 4rem;
+    width: 80%;
+    @include tablet {
+        width: 100%;
+    }
+    margin: 0 auto;
+    border-spacing: 0;
+    thead {
+        background-color: $grisOscuro;
+        th {
+            color: $blanco;
+            padding: 2rem;
+        }
+    }
+    td {
+        text-align: center;
+    }
+    .imagen-tabla{
+        width: 10rem;
+        display: inline-table;
+    }
+}
+.imagen-small {
+    width: 20rem;
+}
+
+.acciones-admin {
+    @include tablet{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        a {
+            align-items: center;
+            justify-content: center;
+            margin-right: 2rem;
+        }
+        a:last-child {
+            margin-right: 0;
+        }
+    }
+}

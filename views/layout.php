@@ -13,6 +13,9 @@ if(!isset($inicio)) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Start cookieyes banner -->
+	<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/b9e7bde4b52aea0aa324fcac/script.js"></script>
+	<!-- End cookieyes banner -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes Raíces</title>
